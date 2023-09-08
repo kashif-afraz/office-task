@@ -1,0 +1,118 @@
+#navbar{
+    display: flex;
+    width: 100%;
+    background-image: url('nav.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 70px;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.coro{
+    margin-top: 50px;
+}
+
+#head1{
+    padding-left: 50px;
+    font-size: 15px;
+    text-align: left;
+    display: inline;
+}
+#logo{
+    padding-left: 25%;
+    height: 70px;
+}
+.location{
+    background: none;
+}
+#search{
+    padding-left: 32%;
+}
+.carousel-inner{
+   border-radius: 10%;
+   justify-content: center;
+}
+.navb{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    position: sticky;
+    top:10%;
+    
+}
+
+.b2:hover{
+    background-color: yellow;
+}
+
+.b2{
+    border: 0px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+}
+
+.boxcontainer{
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin: 30px 10px;
+    height: 20%;
+}
+.boxcontainer:hover{
+    border: 3px solid yellow;
+}
+
+
+/* @media screen and (max-width: 768px) {
+    .boxcontainer{
+        width: 30%;
+        height: 30%;
+    }
+    .subcontainer{
+        width: 50%;
+        height: 50%;
+        text-align: center;
+    }
+    .deal1{width: 100%; height: 100%;}
+  } */
+
+
+
+  @media screen and (max-width: 1200px) {
+    .boxcontainer{
+        width: 30%;
+        height: 30%;
+    }
+    .subcontainer{
+        width: 50%;
+        height: 50%;
+        text-align: center;
+    }
+    .deal1{width: 100%; height: 100%;}
+    #navbar{background-attachment: fixed;}
+  }
+
+.subcontainer{
+    text-align: center;
+}
+
+.deal1{
+    border-radius: 10px;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+.start{
+    display: flex;
+}

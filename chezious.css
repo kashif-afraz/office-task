@@ -33,10 +33,6 @@
 #search{
     padding-left: 32%;
 }
-.carousel-inner{
-   border-radius: 10%;
-   justify-content: center;
-}
 .navb{
     display: flex;
     justify-content: center;
@@ -118,29 +114,55 @@ h1{
     display: flex;
 }
 #trolly{
-    padding-top: 1%;
+    display: flex;
+    align-items: center;   
+    height: 40px;
+    width: 100px; 
+    border-left: 2px solid #D40000;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #person{
-    padding-top: 1%;
-    padding-right: 1%;
-    border-right: 1px solid black;
+    display: flex;
+    align-items: center;   
+    height: 40px;
+    width: 90px; 
+    border-left: 2px solid #D40000;
+    margin-top: 15px;
+    padding-left: 20px;
 }
 
 #search{
-    padding-top: 1%;
+    display: flex;
+    align-items: center;
 }
 
 #location{
     padding-top: 1%;
 }
-/* svg{
-    border-right: 1px solid black;
-    
-} */
-/* #gggg{
-    display: flex;
-    align-items: center;
-    border-right: 1px solid black;
-    height: 20px;
-} */
+
+.coro-me{
+    width: 80%;
+    margin: auto;
+}
+.carousel-control-prev-icon{
+    background-color: #D40000;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.carousel-control-next-icon{
+    background-color: #D40000;
+    border-radius: 10px;
+    height: 100px;
+}
+
+#sp-me, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 40px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
